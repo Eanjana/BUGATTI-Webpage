@@ -1,0 +1,117 @@
+*{
+        margin: 0;
+     
+    }
+    body{
+        background-color: black;
+    }
+    .Main{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .sub img{
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        
+    }
+    .sub2 img{
+        position: absolute;
+        right:50px;
+        top:60px;
+        width: 10vw;
+    }
+    .sub3 img{
+        width: 16vw;
+        position: absolute;
+        left: 70px;
+        top: 10px;
+       
+    }
+    .data{
+        
+        color: silver;
+        font-size: x-large;
+        position: absolute;
+        top:250px;
+        left: 70px;
+
+    }
+    .data td{
+        padding-bottom: 40px;
+        transition: all 0.5s ease;
+    }
+    .sub4{
+        font: bold;
+        font-size: 400%;
+        color: silver;
+        position: absolute;
+        bottom: 30px;
+        text-align: center;
+        width: 80vw;
+        left:5vw;
+        opacity: 0.5;
+        transition: all 1s ease-in-out;
+    }
+    span{
+        color: rgb(190, 17, 17);
+        padding-left: 5px;
+    }
+    .Main:hover .sub4{
+        opacity: 1;
+        bottom: 10px;
+        left:10vw;
+    }
+    .data td:hover{
+        padding-left: 20px;
+        color: rgb(190, 17, 17);
+    }
+    .Main2{
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+        position: relative; 
+    }
+    .sub2-1{
+        width: 40vw;
+        height: 40vh;
+        position: absolute;
+        left: 5vw;
+        top: 30vh;
+        font-size: x-large;
+        text-align: center;
+        color: silver;
+        
+        transition: all 3s ease-in-out;
+    }
+    .sub2-2{
+        width: 60vw;
+        height: 100vh;
+        left:50vw;
+        position: absolute;
+        background-color: brown;
+        
+        transition: all 3s ease-in-out;
+    }
+    .sub2-2 img{
+        height:100vh;
+        width: 100vw;
+    }
+    .Main2:hover .sub2-2{
+        left:20vw;
+    }
+    .sub2-3{
+        height:100vh;
+        position: absolute;
+        left:-100vw;
+        transition: all 2s ease-in-out;
+        transition-delay: 1s;
+    }
+    .sub2-3 img{
+        height: 100vh;
+        width: 80vw;
+    }
+    .Main2:hover .sub2-3{
+        left: -25vw;
+    }
